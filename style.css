@@ -42,6 +42,18 @@ img {
   width: 500px;
 }
 
+a {
+  color: #ff3399;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+mark {
+  background-color: #fed6e8;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -93,12 +105,4 @@ img {
   border: 1px solid #ff99cc;
   border-radius: 4px;
   font-size: 12px;
-}
-
-a {
-  color: #ff3399;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
 }
